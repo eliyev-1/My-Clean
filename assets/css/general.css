@@ -1,0 +1,16 @@
+nav {
+      padding-top:  15rem;
+
+}
+nav,.nav__right{
+      
+      display: flex;
+      justify-content: space-between;
+      align-items: start;
+      
+}
+.nav__right{
+      align-items: center;
+      gap: 7.2rem;
+
+}
