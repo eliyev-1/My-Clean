@@ -31,7 +31,13 @@ a {
 text-decoration: none;
 
 }
-
+a:hover{
+      color: var(--color-yellow);
+}
+ul{
+      
+      list-style: none;
+}
 
 @font-face {
       font-family: myFont1;
