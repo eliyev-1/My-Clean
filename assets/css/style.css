@@ -38,7 +38,12 @@ ul{
       
       list-style: none;
 }
-
+img{
+      width: 100%;
+      height: 100%;
+      box-sizing: border-box;
+     
+}
 @font-face {
       font-family: myFont1;
       src: url(../fonts/BebasNeue\ Bold.otf);
@@ -91,7 +96,7 @@ letter-spacing: -0.66px;
      
 }
 .container{
-      padding: 3rem;
+      padding: 5rem;
 }
       
 

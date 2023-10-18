@@ -1,6 +1,9 @@
+
 nav {
   position: relative;
   padding-top: 15rem;
+ 
+  
 }
 nav,
 .nav__right {
@@ -26,15 +29,21 @@ nav,
 }
 .nav__right option {
   background-color: var(--color-black);
-}
+} 
 header {
   position: relative;
+}
+.header img{
+ box-sizing: unset;
 }
 .header_right {
   position: absolute;
   top: 0;
   right: 0;
   z-index: -1;
+}
+.header__right__img{
+width: 67rem;
 }
 
 .header__left h1 {
