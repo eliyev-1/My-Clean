@@ -1,0 +1,33 @@
+.aboutUs{
+      margin-top: 13rem;
+      display: grid;
+      grid-template-columns: auto auto;
+      justify-content: space-between;
+      align-items: center;
+      gap: 10rem;
+}
+.aboutUs__tittle{
+      padding: 13rem;
+}
+@media(max-width:1100px){
+      .aboutUs__tittle{
+            padding: 8rem;
+      }
+      
+}
+@media(max-width:900px){
+      .aboutUs__tittle{
+            padding: 2rem;
+      }
+      
+}
+@media(max-width:650px){
+      .aboutUs{
+            grid-template-columns: auto ;
+            gap: 1rem;
+      }
+      .aboutUs div:nth-child(3){
+            grid-row: 4 / 4
+      }
+      
+}

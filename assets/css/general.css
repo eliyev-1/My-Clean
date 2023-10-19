@@ -47,6 +47,7 @@ width: 67rem;
 }
 
 .header__left h1 {
+  color: var(--color-white);
   margin-top: 13.5rem;
   max-width: 74.6rem;
 }
@@ -88,7 +89,7 @@ width: 67rem;
 .menu ul {
       display: flex;
       flex-direction: column;
-      gap: 3rem;
+      gap: 1rem;
   font-size: 5rem;
   
 }
@@ -129,4 +130,84 @@ width: 67rem;
   }
 
  
+}
+footer{
+  margin-top: 16rem;
+}
+footer .container{
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.footer__logo{
+  width: 15.2rem;
+}
+footer ul{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  font-size: 3.2rem;
+}
+footer ul a,.footer__social li:nth-child(1){
+  font-size: 1.8rem;
+}
+.footer__social li:nth-child(2){
+  display: flex;
+  gap: 2rem;
+  font-size: 1.8rem;
+
+}
+.footer__copyright{
+  margin-top: 16rem;
+  height: 5.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-yellow);
+  color: var(--color-black);
+}
+
+.page__link{
+  margin-top: 9.2rem;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.page__link span,a{
+  font-family: var(--my-font2);
+  color: var(--color-white);
+  font-weight: 400;
+  font-size: 1.2rem;
+text-decoration: none;
+} 
+.page__link span:nth-child(3){
+  color: var(--color-yellow);
+
+}
+.page__heder__image{
+  margin-top: 3rem;
+  position: relative;
+  background-color: red;
+  
+  background-image: url(/assets/img/aboutUsPageImage.png);
+  
+  height: 33.8rem;
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.page__header{
+  width: 100%;
+  position: absolute;
+  top: 80%;
+ 
+  color: var(--color-white) ;
+}
+.page__header h1{
+  color: var(--color-white)
+
+
 }

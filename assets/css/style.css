@@ -9,7 +9,8 @@ outline: 0;
       --my-font2:'Poppins', sans-serif;
       --color-black:#0E0E0E;
       --color-white:white;
-      --color-yellow: #FDCE00
+      --color-yellow: #FDCE00;
+      --color-grey:#B3B3B3;
 }
 html{
       font-size: 62.5%;
@@ -26,7 +27,7 @@ font-size: 1.6rem;
 a {
       font-family: var(--my-font2);
       color: var(--color-white);
-      font-weight: 500;
+      font-weight: 400;
       font-size: 3.2rem;
 text-decoration: none;
 
@@ -35,6 +36,7 @@ a:hover{
       color: var(--color-yellow);
 }
 ul{
+      font-family: var(--my-font2);
       
       list-style: none;
 }
@@ -49,19 +51,28 @@ img{
       src: url(../fonts/BebasNeue\ Bold.otf);
 }
 
-h1,h2{
+h1,h2,h3{
       font-family: myFont1;
 
 }
 h1{
+      color: var(--color-yellow);
       font-size: 12rem;
       font-weight: 700;
       line-height: 120px;
 letter-spacing: -1.8px;
 }
+h2{
+      font-size: 3.2rem;
+}
+h3{
+      font-size: 2.4rem;
+}
+
 
 p{
-      margin-top: 3rem;
+      font-size: 1.6rem;
+      
       font-family: var(--my-font2);
       font-weight: 400;
 line-height: 2.4rem;
