@@ -1,6 +1,51 @@
-.page__heder__image{
+.page__heder__image {
+  background-image: url(/assets/img/servicesPageImage.png);
+}
+.services>a{
+  color: var(--color-white);
+}
+.services__card{
+  margin-top: 16rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+gap: 2rem;
   
-      
-      background-image: url(/assets/img/servicesPageImage.png);
-    
-    }
+}
+
+.services__card h3{
+  color: var(--color-yellow);
+  font-size: 4.5rem;
+  max-width: 44.5rem;
+}
+.services__card p{
+  margin-top: 2rem;
+  
+  max-width: 47rem;
+}
+.services__card__left__image{
+max-width: 47rem;
+}
+.apply__button {
+  margin-top: 2.5rem;
+}
+@media(max-width:900px){
+  .services__card h3{
+    font-size: 2.2rem;
+   
+  }
+
+}
+@media(max-width:700px){
+  .services__card {
+   flex-direction: column;
+   
+  }
+  .services__card__right{
+    padding: 0 2rem;
+  }
+ .services.container{
+  padding: 0;
+ }
+
+}

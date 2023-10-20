@@ -96,7 +96,7 @@
 }
 
 .services__slider {
-  overflow: hidden;
+
   display: flex;
   justify-content: space-between;
 
@@ -128,13 +128,7 @@
   margin-top: 1rem;
   color: var(--color-white);
 }
-.apply__button {
-  display: flex;
-  align-items: center;
-  gap: 2rem;
-  margin-top: 1rem;
-  color: var(--color-white);
-}
+
 
 .custom-arrow {
   cursor: pointer;
@@ -149,6 +143,7 @@
   border-radius: 100%;
   background-color: var(--color-yellow);
   color: var(--color-black);
+
 }
 .prev-arrow {
   right: 0;

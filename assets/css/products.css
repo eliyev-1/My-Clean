@@ -1,0 +1,28 @@
+.page__heder__image {
+  background-image: url(/assets/img/productsPageHeaderImage.png);
+}
+
+.products.container {
+margin-top: 16rem;
+}
+.products__link {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: end;
+}
+
+.products {
+  overflow: hidden;
+  margin-top: 2.4rem;
+  display: flex;
+}
+.products__card {
+  margin: 0 3rem;
+}
+.products__card h2 {
+  margin-top: 3rem;
+}
+.products__card h3 {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}

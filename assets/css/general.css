@@ -175,14 +175,14 @@ footer ul a,.footer__social li:nth-child(1){
   gap: 2rem;
   align-items: center;
 }
-.page__link span,a{
+.page__link span, .page__link span  a{
   font-family: var(--my-font2);
   color: var(--color-white);
   font-weight: 400;
   font-size: 1.2rem;
 text-decoration: none;
 } 
-.page__link span:nth-child(3){
+.page__link span:nth-last-child(1){
   color: var(--color-yellow);
 
 }

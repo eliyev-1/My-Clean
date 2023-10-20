@@ -92,6 +92,17 @@ line-height: 2.4rem;
       margin: 0 auto;
       max-width: 100.5rem;
 }
+.apply__button {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+      margin-top: 1rem;
+      color: var(--color-white);
+      font-family: var(--my-font2);
+      font-size: 3.2rem;
+     
+    }
+   
 @media (max-width:1100px){
       h1{
             font-size: 4.4rem;
