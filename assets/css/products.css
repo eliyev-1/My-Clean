@@ -12,9 +12,15 @@ margin-top: 16rem;
 }
 
 .products {
-  overflow: hidden;
+
   margin-top: 2.4rem;
-  display: flex;
+  display: grid;
+  row-gap: 6rem;
+  column-gap: 3rem;
+  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+
+
+  
 }
 .products__card {
   margin: 0 3rem;
