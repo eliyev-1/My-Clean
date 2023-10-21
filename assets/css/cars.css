@@ -1,0 +1,23 @@
+.page__heder__image {
+    background-image: url(/assets/img/carsPageHeader.png);
+    }
+.cars{
+    
+    margin-top: 16rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+    row-gap: 6rem;
+    column-gap: 3rem;
+
+  }
+
+.cars__card h2{
+    margin-top: 3rem;
+  
+  
+  }
+.cars__card h3{
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+  
+  }
