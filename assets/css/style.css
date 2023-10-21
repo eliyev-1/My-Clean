@@ -74,7 +74,7 @@ p{
       
       font-family: var(--my-font2);
       font-weight: 400;
-line-height: 2.4rem;
+
 }
 .header__left__link span:nth-child(2){
       width: 6rem;
@@ -105,8 +105,7 @@ line-height: 2.4rem;
 @media (max-width:1100px){
       h1{
             font-size: 4.4rem;
-            line-height: 48px; /* 109.091% */
-letter-spacing: -0.66px;
+            
       }
       a{
             font-size: 2.4rem;

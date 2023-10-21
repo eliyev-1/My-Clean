@@ -124,13 +124,7 @@ width: 67rem;
      
     }
     
-@media (max-width: 500px) {
-  .nav__right select {
-    display: none;
-  }
 
- 
-}
 footer{
   margin-top: 16rem;
 }
@@ -205,8 +199,24 @@ text-decoration: none;
  
   color: var(--color-white) ;
 }
+
 .page__header h1{
-  color: var(--color-white)
+  max-width: 90rem;
+  font-size: 12rem;
+  color: var(--color-white);
+ 
+  
+  
 
 
+}
+@media(max-width:800px){
+  .page__header h1{
+    max-width: 90rem;
+    font-size: 4.4rem;
+  
+   
+  
+  
+  }
 }

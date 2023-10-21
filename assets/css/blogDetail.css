@@ -1,0 +1,37 @@
+.page__heder__image {
+    background-image: url(/assets/img/blogDetailPageHeader.png);
+  }
+  .blog__detail{
+    margin-top: 40rem;
+    display: flex;
+    justify-content: space-between;
+    
+    column-gap: 13rem;
+   
+    
+  }
+  .blog__detail__left{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+  }
+  .blog__detail__right__header{
+    margin-bottom: 4rem;
+    color: var(--color-yellow);
+  }
+  .blog__card__right p{
+    margin-top: 2rem;
+  }
+  .blog__detail__left__img,.blog__detail__left p{
+    max-width: 67rem;
+  }
+  
+  .blog__detail__right__cards__card__image, .blog__card__right p{
+   max-width: 37rem;
+  }
+@media(max-width:800px){
+  .blog__detail{
+    flex-direction: column;
+  }
+ 
+}
