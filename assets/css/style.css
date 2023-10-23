@@ -1,123 +1,114 @@
-*, *::after,  *::before{
-box-sizing: inherit;
-margin: 0;
-padding: 0;
-border: 0;
-outline: 0;
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
 }
-:root{
-      --my-font2:'Poppins', sans-serif;
-      --color-black:#0E0E0E;
-      --color-white:white;
-      --color-yellow: #FDCE00;
-      --color-grey:#B3B3B3;
+:root {
+  --my-font2: "Poppins", sans-serif;
+  --color-black: #0e0e0e;
+  --color-white: white;
+  --color-yellow: #fdce00;
+  --color-grey: #b3b3b3;
 }
-html{
-      font-size: 62.5%;
+html {
+  font-size: 62.5%;
 }
-body{
-
-background-color: var(--color-black);
-color:var(--color-white) ;
-font-family: var(--main-font1);
-font-style: normal;
-font-size: 1.6rem;
-
+body {
+  background-color: var(--color-black);
+  color: var(--color-white);
+  font-family: var(--main-font1);
+  font-style: normal;
+  font-size: 1.6rem;
 }
 a {
-      font-family: var(--my-font2);
-      color: var(--color-white);
-      font-weight: 400;
-      font-size: 3.2rem;
-text-decoration: none;
+  font-family: var(--my-font2);
+  color: var(--color-white);
+  font-weight: 400;
+  font-size: 3.2rem;
+  text-decoration: none;
+}
+a:hover {
+  color: var(--color-yellow);
+}
+ul {
+  font-family: var(--my-font2);
 
+  list-style: none;
 }
-a:hover{
-      color: var(--color-yellow);
-}
-ul{
-      font-family: var(--my-font2);
-      
-      list-style: none;
-}
-img{
-      width: 100%;
-      height: 100%;
-      box-sizing: border-box;
-     
+img {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
 }
 @font-face {
-      font-family: myFont1;
-      src: url(../fonts/BebasNeue\ Bold.otf);
+  font-family: myFont1;
+  src: url(../fonts/BebasNeue\ Bold.otf);
 }
 
-h1,h2,h3{
-      font-family: myFont1;
+h1,
+h2,
+h3 {
+  font-family: myFont1;
+}
+h1 {
+  color: var(--color-yellow);
+  font-size: 12rem;
+  font-weight: 700;
+}
+h2 {
+  font-size: 3.2rem;
+}
+h3 {
+  font-size: 2.4rem;
+}
 
-}
-h1{
-      color: var(--color-yellow);
-      font-size: 12rem;
-      font-weight: 700;
+p {
+  font-size: 1.6rem;
 
+  font-family: var(--my-font2);
+  font-weight: 400;
 }
-h2{
-      font-size: 3.2rem;
+.header__left__link span:nth-child(2) {
+  width: 6rem;
+  height: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  background-color: var(--color-yellow);
+  color: var(--color-black);
 }
-h3{
-      font-size: 2.4rem;
-}
-
-
-p{
-      font-size: 1.6rem;
-      
-      font-family: var(--my-font2);
-      font-weight: 400;
-
-}
-.header__left__link span:nth-child(2){
-      width: 6rem;
-      height: 6rem;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border-radius: 100%;
-      background-color: var(--color-yellow);
-      color: var(--color-black);
-     
-}
-.container{
-      margin: 0 auto;
-      max-width: 100.5rem;
+.container {
+  margin: 0 auto;
+  max-width: 100.5rem;
 }
 .apply__button {
-      display: flex;
-      align-items: center;
-      gap: 2rem;
-      margin-top: 1rem;
-      color: var(--color-white);
-      font-family: var(--my-font2);
-      font-size: 3.2rem;
-     
-    }
-   
-@media (max-width:1100px){
-      h1{
-            font-size: 4.4rem;
-            
-      }
-      a{
-            font-size: 2.4rem;
-      }
-      .header__left__link span:nth-child(2){
-            width: 4rem;
-            height: 4rem;
-     
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 1rem;
+  color: var(--color-white);
+  font-family: var(--my-font2);
+  font-size: 3.2rem;
 }
-.container{
-      padding: 5rem;
-}
-      
 
+@media (max-width: 1100px) {
+  h1 {
+    font-size: 4.4rem;
+  }
+  a {
+    font-size: 2.4rem;
+  }
+  .header__left__link span:nth-child(2) {
+    width: 4rem;
+    height: 4rem;
+  }
+  .container {
+    padding:0 5rem;
+  }
+ 
 }

@@ -1,0 +1,47 @@
+.page__heder__image {
+      background-image: url(/assets/img/connectionPageHeader.png);
+    }
+.connection {
+      margin-top: 16rem;
+    }
+    
+    .connection__list {
+      margin-top: 4.3rem;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 2rem;
+    }
+    
+    .connection__header {
+      display: flex;
+      justify-content: center;
+    }
+    
+    .connection__list ul {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+    .connection__list > ul:nth-child(1)> li:nth-child(1)>p{
+      max-width: 25.7rem;
+    }
+    
+    .connection__list li {
+      display: flex;
+      gap: 4.6rem;
+    }
+    
+    .connection__list i {
+    
+      color: var(--color-yellow);
+    
+    }
+    
+    .connection__list li a {
+      font-size: 2rem;
+    }
+    
+    .map {
+      margin-top: 4.3rem;
+    }
