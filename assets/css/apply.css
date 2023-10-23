@@ -1,0 +1,85 @@
+.apply{
+      margin-top: 8rem;
+      display: flex;
+      justify-content: space-between;
+      gap: 10rem;
+     
+}
+
+.apply__left{
+      padding-left: 13.5rem;
+
+}
+.apply__left__inputs{
+      display: flex;
+      justify-content: space-between;
+      column-gap: 6rem;
+      
+}
+.apply__left__inputs__left,.apply__left__inputs__right{
+      display: flex;
+      flex-direction: column;
+      row-gap: 5rem;
+}
+.apply__left__inputs >div{
+     
+     
+   width: 27rem;
+}
+.apply__left__inputs input,.comment__textarea{
+      background-color: transparent;
+      border-bottom: 1px solid var(--color-white);
+      color: var(--color-white);
+}
+.comment__textarea{
+      margin-top: 5rem;
+}
+.apply__button{
+      margin-top: 5rem;
+}
+@media(max-width:1200px){
+      .apply__left{
+            padding-left: 2rem;
+      
+      }
+      .apply__left__inputs{
+            flex-direction: column;
+            row-gap: 5rem;
+      }
+
+}
+.apply__right__img{
+      max-width: 160.5rem;
+}
+@media(max-width:1200px){
+      .apply{
+            flex-direction: column;
+            row-gap: 5rem;
+            
+      }
+      .apply__left{
+            
+            padding: 5rem;
+      
+      }
+      .apply__left__inputs{
+           
+            flex-direction: row;
+      }
+      .apply__left__inputs> div{
+           width: 100%;
+      }
+      
+    
+
+
+}
+@media(max-width:600px){
+      .apply__left__inputs{
+           
+            flex-direction: column;
+      }
+   
+          
+
+}
