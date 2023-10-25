@@ -115,6 +115,10 @@
 }
 
 .services__slider {
+  overflow: hidden;
+ 
+  width: 100%;
+  justify-content: space-between;
 
 
   display: flex;
@@ -126,9 +130,7 @@
 .services__header {
   text-align: center;
 }
-.swiper-container {
-  overflow: hidden;
-}
+
 .services__slider__card {
   position: relative;
   display: flex;
@@ -156,7 +158,10 @@
   margin-top: 1rem;
   color: var(--color-white);
 }
-
+.services__slider__card__img{
+ width: 37rem;
+ height: 39rem;
+}
 
 .custom-arrow {
   cursor: pointer;
@@ -223,10 +228,13 @@ transform: translate(0, -470%);
 
 .products__slider,
 .cars__slider {
-  overflow: hidden;
+
+
   margin-top: 2.4rem;
   display: flex;
+  justify-content: space-between;
 }
+
 
 .products__slider__card,
 .cars__slider__card {

@@ -1,0 +1,39 @@
+[
+      {
+      "id":1,
+      "header":"Grass Avto Şampun",
+      "tittle":"Avtomobil səthinin təmizlənməsi üçün yuyucu vasitə. Bu şampun köpük yaradaraq, avtomobilin səthin...",
+      "img":"../img/products/img1.jpg",
+      "imgIndex":"/../assets/img/products/img1.jpg"
+      },
+      {
+      "id":2,     
+      "header":"Grass Yuma Vasitəsi",
+      "tittle":"Nəqliyyat vasitəsinin yuyulması üçün yüksək səviyyədə konsentrasiya olunmuş vasitədir. Çəhrayı kö...",
+      "img":"../img/products/img2.jpg",
+      "imgIndex":"assets/img/products/img1.jpg"
+      },
+      {
+      "id":3,
+      "header":"Koch Cilalama Pasta F601",
+      "tittle":"Unikal alüminium oksid keyfiyyəti ilə ən son nəsil maşın cilası pastası. Dərmanın tərkibi cızıqla...",
+      "img":"../img/products/img3.jpg",
+      "imgIndex":"../assets/img/products/img3.jpg"
+      },
+      {
+      "id":4,
+      "header":"Koch Cilalama Pastası M302",
+      "tittle":"Mikro cilalama pastası silikonsuz yağsızBu məhlul bütün növ boyalarda cızıqların, izlərin holoqra...",
+      "img":"../img/products/img4.jpg",
+      "imgIndex":"../assets/img/products/img4.jpg"
+      },
+      {
+      "id":5,
+      "header":"Koch Cilalama Pastası H901",
+      "tittle":"Qatı cilalama pastası. Ağır aşınmaya məruz qalmış boyaların yenidən əvvəlki halına qayıtması, dər....",
+      "img":"../img/products/img5.jpg",
+      "imgIndex":"assets/img/products/img5.jpg"
+      }
+      
+      ]
+      
