@@ -29,6 +29,7 @@ max-width: 47rem;
 .apply__button {
   margin-top: 2.5rem;
 }
+
 @media(max-width:900px){
   .services__card h3{
     font-size: 2.2rem;

@@ -24,7 +24,7 @@ fetch("../json/products.json").then(function(response){
 
       
       `;
-      productCard.href="../html/servicesDetail.html"
+   
       products.appendChild(productCard);
 
      })
@@ -41,33 +41,37 @@ fetch("../assets/json/products.json").then(function(response){
   return response.json()
 }).then(function(productsData){
    productsData?.map(item=>{
-         let productSliderCard = document.createElement('div');
-         productSliderCard.className = 'products__card';
+         let productSliderCard = document.createElement('a');
+       ;
    
-         productSliderCard.innerHTML = ` 
-   <a href="../html/productsDeatail.html">
+         productSliderCard.innerHTML = `
+         <div class="products__slider__card">
+   <div>
      <div class="products__card__img">
        <img src="${item.imgIndex}" alt="">
      </div>
      <h2>${item.header}</h2>
     
      <p>${item.tittle}</p>
-   </a>
+     </div>
+   </div>
 
 
 
 
 
    
-   `;
-   productSliderCard.href="../html/servicesDetail.html"
+   `
+   productSliderCard.href="./assets/html/productsDetail.html"
    productsSlider.appendChild(productSliderCard);
 
   })
 
-  $('..products__slider').slick({
+  $('.products__slider').slick({
+    prevArrow: '',
+    nextArrow: '',
     dots: true,
-    infinite: false,
+    infinite: true,
     speed: 300,
     slidesToShow: 4,
     slidesToScroll: 4,

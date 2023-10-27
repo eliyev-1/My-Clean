@@ -159,7 +159,7 @@
   color: var(--color-white);
 }
 .services__slider__card__img{
- width: 37rem;
+
  height: 39rem;
 }
 
@@ -193,17 +193,10 @@ left: 3rem;
 transform: translate(0, -470%);
 
 }
-.swiper-wrapper {
-  display: flex; /* Öğeleri yatay hizalama için flex kullanın */
-  justify-content: center; /* Öğeleri yatay eksende ortala */
-  align-items: center; /* Öğeleri dikey eksende ortala */
-}
 
 
-.swiper-button-next::after,
-.swiper-button-prev::after {
-  display: none;
-}
+
+
 
 
 
@@ -254,6 +247,9 @@ transform: translate(0, -470%);
   margin-bottom: 1rem;
 
 }
+.products__slider,.services__slider{
+  margin: 0 2rem;
+}
 
 .cars__header {
   display: flex;
@@ -272,7 +268,7 @@ transform: translate(0, -470%);
 }
 
 .blog__slider {
-  overflow: hidden;
+ 
   margin-top: 3rem;
   display: flex;
 }
