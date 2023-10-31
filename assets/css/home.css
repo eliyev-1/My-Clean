@@ -281,7 +281,10 @@ transform: translate(0, -470%);
 
 
 }
+.blog__slider__card a{
+  color: var(--color-black);
 
+}
 .blog__slider__card__img {
   width: 40rem;
 }

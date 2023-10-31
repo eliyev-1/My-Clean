@@ -36,7 +36,14 @@ let services = document.querySelector('.services')
       
 
       servicesCard.href="../html/servicesDetail.html"
-      services.appendChild(servicesCard);
+      services?.appendChild(servicesCard);
+      servicesCard.addEventListener('click',()=>{
+        localStorage.setItem("servicesDetail__data__link", JSON.stringify(item))
+    
+       })
+     
+
+  
 
 
   
@@ -48,7 +55,7 @@ let services = document.querySelector('.services')
 let servicesSlider = document.querySelector('.services__slider')
 
 
-fetch("../assets/json/services.json").then(function(response){
+fetch("/assets/json/services.json").then(function(response){
 
 return response.json()
 }).then(function(servicesSliderData){
@@ -68,6 +75,7 @@ return response.json()
              <p>
              ${item.tittle.slice(0,100)}
                </p>
+               <a href="/assets/html/apply.html">
              <div class="apply__button">
                <span>Müraciət et</span> <span>
                  <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
@@ -75,14 +83,21 @@ return response.json()
                  </svg>
                </span>
              </div>
+             </a>
 
            </div>
           
        
        </div>
    `
+   servicesSliderCard.href='/assets/html/servicesDetail.html'
    
-   servicesSlider.appendChild(servicesSliderCard);
+   servicesSlider?.appendChild(servicesSliderCard);
+   servicesSliderCard.addEventListener('click',()=>{
+    localStorage.setItem("servicesDetail__data__link", JSON.stringify(item))
+
+   })
+
 
 
   })

@@ -24,8 +24,10 @@ fetch("../json/products.json").then(function(response){
 
       
       `;
-   
+
+   productCard.href="/assets/html/productsDetail.html"
       products.appendChild(productCard);
+
 
      })
 })
@@ -64,6 +66,10 @@ fetch("../assets/json/products.json").then(function(response){
    `
    productSliderCard.href="./assets/html/productsDetail.html"
    productsSlider.appendChild(productSliderCard);
+   productSliderCard.addEventListener('click',()=>{
+    localStorage.setItem("products__data__link", JSON.stringify(item))
+
+   })
 
   })
 

@@ -1,11 +1,15 @@
 .page__heder__image {
     background-image: url(/assets/img/blogPageHeader.png);
   }
+  .blog{
+    margin-top: 16rem;
+  }
   .blog>a{
     color: var(--color-white);
   }
   .blog__card{
-    margin-top: 16rem;
+    margin-top: 6rem;
+ 
     display: flex;
     align-items: center;
     justify-content: space-between;
