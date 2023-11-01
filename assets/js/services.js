@@ -141,5 +141,4 @@ return response.json()
  
 })
 
-const services__slider = document.querySelector('.services__slider')
 

@@ -1,0 +1,35 @@
+.cars__detail{
+      margin-top: 6rem;
+      display: flex;
+     align-items: start;
+      column-gap: 10rem;
+}
+.cars__detail__left{
+      display: flex;
+      flex-direction: column;
+      gap: 3rem;
+}
+.cars__detail__left h1{
+      font-size: 4.5rem;
+}
+.cars__detail__left p{
+      max-width: 47rem;
+}
+.cars__detail__left ul{
+      width: 80%;
+}
+.cars__detail__left ul li{
+     display: flex;
+     justify-content: space-between;
+
+      
+}
+.cars__detail__right__slider{
+      width: 57rem;
+}
+.cars__detail__right__slider{
+      display: flex;
+      flex-direction: column;
+      gap: 3rem;
+}
+

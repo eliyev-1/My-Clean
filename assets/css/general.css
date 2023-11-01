@@ -23,6 +23,7 @@ nav,
   color: var(--color-white);
   background-color: transparent;
   gap: 2rem;
+  border: none;
 }
 .nav__right option {
   background-color: var(--color-black);
