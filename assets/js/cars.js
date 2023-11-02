@@ -18,7 +18,7 @@ return response.json()
      </div>
      <h2>${item.header}</h2>
      <h3>${item.price}</h3>
-     <p>${item.tittle}</p>
+     <p>${item.tittle.slice(0,100)}</p>
    </a>
 
    `
@@ -27,6 +27,9 @@ return response.json()
    carsSlider?.appendChild(carsSliderCard);
    carsSliderCard.addEventListener('click',()=>{
     localStorage.setItem("cars__data__link", JSON.stringify(item))
+   
+
+   
 
    })
 

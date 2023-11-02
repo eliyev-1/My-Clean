@@ -16,11 +16,15 @@
       max-width: 47rem;
 }
 .cars__detail__left ul{
-      width: 80%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
 }
 .cars__detail__left ul li{
      display: flex;
      justify-content: space-between;
+    
 
       
 }

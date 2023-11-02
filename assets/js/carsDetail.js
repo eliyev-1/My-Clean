@@ -10,33 +10,30 @@ ${carsDetail__data__parse.tittle}
 
 </p>
 <ul>
-      <li><span>Şəhər</span><span>Bakı</span></li>
-      <li><span>Marka</span><span>Bakı</span></li>
-      <li><span>Model</span><span>Bakı</span></li>
-      <li><span>Buraxılış ili</span><span>Bakı</span></li>
-      <li><span>Ban növü</span><span>Bakı</span></li>
-      <li><span>Rəng</span><span>Bakı</span></li>
-      <li><span>Mühərrik</span><span>Bakı</span></li>
-      <li><span>Mühərrikin gücü</span><span>Bakı</span></li>
-      <li><span>Yanacaq növü</span><span>Bakı</span></li>
-      <li><span>Yürüş</span><span>Bakı</span></li>
-      <li><span>Sürətlər qutusu</span><span>Bakı</span></li>
-      <li><span>Ötürücü</span><span>Bakı</span></li>
+      <li><span>Şəhər</span><span>${carsDetail__data__parse.infoList.city}</span></li>
+      <li><span>Marka</span><span>${carsDetail__data__parse.infoList.brand}</span></li>
+      <li><span>Model</span><span>${carsDetail__data__parse.infoList.model}</span></li>
+      <li><span>Buraxılış ili</span><span>${carsDetail__data__parse.infoList.productionYear}</span></li>
+      <li><span>Ban növü</span><span>${carsDetail__data__parse.infoList.banType}</span></li>
+      <li><span>Rəng</span><span>${carsDetail__data__parse.infoList.color}</span></li>
+      <li><span>Mühərrik</span><span>${carsDetail__data__parse.infoList.engine}</span></li>
+      <li><span>Mühərrikin gücü</span><span>${carsDetail__data__parse.infoList.enginePower}</span></li>
+      <li><span>Yanacaq növü</span><span>${carsDetail__data__parse.infoList.fuelType}</span></li>
+      <li><span>Yürüş</span><span>${carsDetail__data__parse.infoList.march}</span></li>
+      
 </ul>
 </div>
 <div class="cars__detail__right">
 <div class="cars__detail__right__slider">
       <div class="slider-for">
-            <div><img src="/assets/img/cars/img1.jpg" alt=""></div>
-            <div><img src="/assets/img/cars/img2.jpg" alt=""></div>
-            <div><img src="/assets/img/cars/img1.jpg" alt=""></div>
-            <div><img src="/assets/img/cars/img1.jpg" alt=""></div>
-            <div><img src="/assets/img/cars/img1.jpg" alt=""></div>
+      ${carsDetail__data__parse.img.map(item => `<div><img src="${item}" alt=""></div>`).join('')}
+
+           
+            
+           
       </div>
       <div class="cars__detail__right__nav__slider">
-            <div><img src="/assets/img/cars/img1.jpg" alt=""></div>
-            <div><img src="/assets/img/cars/img2.jpg" alt=""></div>
-            <div><img src="/assets/img/cars/img1.jpg" alt=""></div>
+      ${carsDetail__data__parse.img.map(item => `<div><img src="${item}" alt=""></div>`).join('')}
          
       </div>
 
@@ -61,7 +58,7 @@ $(".slider-for").slick({
   asNavFor: ".cars__detail__right__nav__slider",
 });
 $(".cars__detail__right__nav__slider").slick({
-  slidesToShow: 3,
+  slidesToShow: 2,
   slidesToScroll: 1,
 
   asNavFor: ".slider-for",
