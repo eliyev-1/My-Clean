@@ -26,14 +26,14 @@ ${carsDetail__data__parse.tittle}
 <div class="cars__detail__right">
 <div class="cars__detail__right__slider">
       <div class="slider-for">
-      ${carsDetail__data__parse.img.map(item => `<div><img src="${item}" alt=""></div>`).join('')}
+      ${carsDetail__data__parse.imges.map(item => `<div><img src="${item}" alt=""></div>`).join('')}
 
            
             
            
       </div>
       <div class="cars__detail__right__nav__slider">
-      ${carsDetail__data__parse.img.map(item => `<div><img src="${item}" alt=""></div>`).join('')}
+      ${carsDetail__data__parse.imges.map(item => `<div><img src="${item}" alt=""></div>`).join('')}
          
       </div>
 

@@ -50,50 +50,50 @@
     }
   },
   {
-    "id": 1,
-    "header": "Hyundai Kona",
-    "tittle": "Maşın koreadan yeni gəlib. Ölkədə sürülməyib. Tam ideal vəziyyətdədir, heç bir xərc tələb etmir. Kraska dəyən və dəyişən detalı yoxdur. Orjinal probeqdir. İstənilən yerdə yoxlatdıra bilərsiz. Əlavə nə sualınız olsa əlaqə saxlayıb soruşa bilərsiz..",
+    "id": 3,
+    "header": "Mercedes C 300",
+    "tittle": "Modelinin en dolu komplektasiyasidi.Rəng dəyən detalı yoxdur.Heç bir airbag açılmayıb. Arxa bufer zedesi ilə gəlib yenisi ilə əvəz olunub. Heç bir xərc tələb etmir. Öz şəxsi avtomobilimdir.Led fara ve stoplar",
 
     "imges": [
-      "/assets/img/cars/img1-1.jpg",
-      "/assets/img/cars/img1-2.jpg",
-      "/assets/img/cars/img1-3.jpg"
+      "/assets/img/cars/img3-1.jpg",
+      "/assets/img/cars/img3-2.jpg",
+      "/assets/img/cars/img3-3.jpg"
     ],
-    "imgIndex": "/../assets/img/cars/img1-1.jpg",
-    "price": "22 000$",
+    "imgIndex": "/../assets/img/cars/img3-1.jpg",
+    "price": "29 500$",
     "infoList": {
       "city": "Bakı",
-      "brand": "Hyundai",
-      "model": "Kona",
-      "productionYear": "2018",
-      "banType": "Offroader / SUV",
-      "color": "Ağ",
-      "engine": "1.6 L/136 a.g./Dizel",
+      "brand": "Mercedes",
+      "model": "C 300",
+      "productionYear": "2016",
+      "banType": "Sedan",
+      "color": "Qara",
+      "engine": "2.0 L/245 a.g./Benzin",
       "enginePower": "113 710 km",
       "fuelType": "Avtomat",
       "march": "Ön"
     }
   },
   {
-    "id": 1,
-    "header": "Hyundai Kona",
+    "id": 4,
+    "header": "Mercedes G 63 AMG",
     "tittle": "Maşın koreadan yeni gəlib. Ölkədə sürülməyib. Tam ideal vəziyyətdədir, heç bir xərc tələb etmir. Kraska dəyən və dəyişən detalı yoxdur. Orjinal probeqdir. İstənilən yerdə yoxlatdıra bilərsiz. Əlavə nə sualınız olsa əlaqə saxlayıb soruşa bilərsiz..",
 
     "imges": [
-      "/assets/img/cars/img1-1.jpg",
-      "/assets/img/cars/img1-2.jpg",
-      "/assets/img/cars/img1-3.jpg"
+      "/assets/img/cars/img4-1.jpg",
+      "/assets/img/cars/img4-2.jpg",
+      "/assets/img/cars/img4-3.jpg"
     ],
-    "imgIndex": "/../assets/img/cars/img1-1.jpg",
+    "imgIndex": "/../assets/img/cars/img4-1.jpg",
     "price": "22 000$",
     "infoList": {
       "city": "Bakı",
-      "brand": "Hyundai",
-      "model": "Kona",
-      "productionYear": "2018",
+      "brand": "Mercedes",
+      "model": "G 63 AMG",
+      "productionYear": "2023",
       "banType": "Offroader / SUV",
       "color": "Ağ",
-      "engine": "1.6 L/136 a.g./Dizel",
+      "engine": "4.0 L/585 a.g./Benzin",
       "enginePower": "113 710 km",
       "fuelType": "Avtomat",
       "march": "Ön"
