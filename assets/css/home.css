@@ -5,7 +5,7 @@
   color: var(--color-black);
 }
 
-.statistica>.container {
+.statistica > .container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -14,7 +14,7 @@
   padding: 3.3rem 0;
 }
 
-.statistica>.container>div {
+.statistica > .container > div {
   text-align: center;
   gap: 1rem;
 }
@@ -110,21 +110,13 @@
 }
 
 .services {
-  
   margin-top: 16rem;
 }
 
 .services__slider {
-  overflow: hidden;
- 
-  width: 100%;
   justify-content: space-between;
 
-
   display: flex;
- 
-
-  margin-top: 10.8rem;
 }
 
 .services__header {
@@ -132,11 +124,10 @@
 }
 
 .services__slider__card {
+  margin-top: 6rem;
   position: relative;
   display: flex;
-  margin: 0 2rem;
-
-
+  margin-right: 20px;
 
   flex-direction: column;
 }
@@ -147,20 +138,18 @@
   bottom: 0;
 }
 
-.services__slider__card>a h2 {
-
+.services__slider__card > a h2 {
   color: var(--color-white);
 }
 
-.services__slider__card>a p {
+.services__slider__card > a p {
   font-family: var(--my-font2);
   font-size: 1.6rem;
   margin-top: 1rem;
   color: var(--color-white);
 }
-.services__slider__card__img{
-
- height: 39rem;
+.services__slider__card__img {
+  max-width: 37rem;
 }
 
 .custom-arrow {
@@ -176,36 +165,23 @@
   border-radius: 100%;
   background-color: var(--color-yellow);
   color: var(--color-black);
-
 }
 
 .prev-arrow {
-  
   right: 3rem;
   transform: translate(0, -470%);
-
-
-
 }
 
 .next-arrow {
-left: 3rem;
-transform: translate(0, -470%);
-
+  left: 3rem;
+  transform: translate(0, -470%);
 }
-
-
-
-
-
-
 
 @media (max-width: 750px) {
   .services__slider__content {
     position: static;
   }
 }
-
 
 .products,
 .cars {
@@ -217,37 +193,34 @@ transform: translate(0, -470%);
   margin-top: 1rem;
   display: flex;
   justify-content: end;
+  margin-bottom: 6rem;
 }
 
 .products__slider,
 .cars__slider {
-
-
-  margin-top: 2.4rem;
+ 
   display: flex;
   justify-content: space-between;
 }
 
-
 .products__slider__card,
 .cars__slider__card {
+  
   margin: 0 3rem;
 }
 
 .products__slider__card h2,
 .cars__slider__card h2 {
   margin-top: 3rem;
-
-
 }
 
 .products__slider__card h3,
 .cars__slider__card h3 {
   margin-top: 3rem;
   margin-bottom: 1rem;
-
 }
-.products__slider,.services__slider{
+.products__slider,
+.services__slider {
   margin: 0 2rem;
 }
 
@@ -268,7 +241,6 @@ transform: translate(0, -470%);
 }
 
 .blog__slider {
- 
   margin-top: 3rem;
   display: flex;
 }
@@ -278,12 +250,9 @@ transform: translate(0, -470%);
   display: flex !important;
   gap: 7rem;
   margin: 0 2rem;
-
-
 }
-.blog__slider__card a{
+.blog__slider__card a {
   color: var(--color-black);
-
 }
 .blog__slider__card__img {
   width: 40rem;
@@ -299,12 +268,11 @@ p {
 }
 
 .blog__link {
-  margin-top: 5.5rem
+  margin-top: 5.5rem;
 }
 
 .blog__link a {
   color: var(--color-black);
-
 }
 
 .connection {
@@ -335,9 +303,7 @@ p {
 }
 
 .connection__list i {
-
   color: var(--color-yellow);
-
 }
 
 .connection__list li a {
