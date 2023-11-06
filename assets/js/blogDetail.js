@@ -1,4 +1,7 @@
 let blockDetail = document.querySelector('.blog__detail__left')
+
+
+
 let blogDetail__data=localStorage.getItem("blogDetail__data__link")
 var blogDetail__data__parse = JSON.parse(blogDetail__data);
 blockDetail.innerHTML=`
@@ -13,5 +16,9 @@ blockDetail.innerHTML=`
     
 
 `
-let blogHeader = document.querySelector('.page__header__tittle')
-blogHeader.innerHTML=`${blogDetail__data__parse.header}`
+let blogHeader = document.querySelectorAll('.page__header__tittle');
+
+
+blogHeader.forEach(header => {
+  header.innerHTML = `${blogDetail__data__parse.header}`;
+});

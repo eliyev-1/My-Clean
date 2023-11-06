@@ -7,7 +7,7 @@
       gap: 10rem;
 }
 
-.aboutUs__tittle {
+.about__us__tittle {
       padding: 13rem;
 }
 
@@ -23,7 +23,7 @@ background-image: url(/assets/img/aboutUsPageImage.png);
 }
 
 @media(max-width:900px) {
-      .aboutUs__tittle {
+      .about__us__tittle {
             padding: 2rem;
       }
 

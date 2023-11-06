@@ -34,6 +34,10 @@ fetch("./assets/json/blog.json").then(function(response){
    `;
    
    blogSlider.appendChild(blogSliderCard);
+   blogSliderCard.addEventListener('click',()=>{
+    localStorage.setItem("blogDetail__data__link", JSON.stringify(item))
+
+   })
 
   })
   

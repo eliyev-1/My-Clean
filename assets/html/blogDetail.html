@@ -1,200 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/style.css" />
-    <link rel="stylesheet" href="../css/general.css" />
-    <link rel="stylesheet" href="../css/blogDetail.css"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    
-    <!-- Slick Slider CSS dosyasını ekleyin -->
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-    
-    <!-- Slick Slider tema CSS dosyasını ekleyin (isteğe bağlı) -->
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-    
-    <title>Document</title>
-  </head>
-  <body>
-    <header class="container">
-      <nav >
-        <div class="nav__left">
-          <div class="nav__logo">
-            <a href="/index.html"><img src="../img/navLogo.png" alt="" /></a>
-          </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/general.css" />
+  <link rel="stylesheet" href="../css/blogDetail.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <!-- Slick Slider CSS dosyasını ekleyin -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+  <!-- Slick Slider tema CSS dosyasını ekleyin (isteğe bağlı) -->
+  <link rel="stylesheet" type="text/css"
+    href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+
+  <title>Document</title>
+</head>
+
+<body>
+  <header class="container">
+    <nav>
+      <div class="nav__left">
+        <div class="nav__logo">
+          <a href="/index.html"><img src="../img/navLogo.png" alt="" /></a>
         </div>
-        <div class="nav__right">
-          <select>
-            <option value=""><a href="#">AZ </a></option>
-            <option value=""><a href="#">RUS</a></option>
-            <option value=""><a href="#">ENG</a></option>
-          </select>
-          <div class="nav__menu">
-            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="16" viewBox="0 0 28 16" fill="none">
-              <path d="M15.4 13.3333H1.4C1.0287 13.3333 0.672601 13.4738 0.41005 13.7239C0.1475 13.9739 0 14.313 0 14.6667C0 15.0203 0.1475 15.3594 0.41005 15.6095C0.672601 15.8595 1.0287 16 1.4 16H15.4C15.7713 16 16.1274 15.8595 16.3899 15.6095C16.6525 15.3594 16.8 15.0203 16.8 14.6667C16.8 14.313 16.6525 13.9739 16.3899 13.7239C16.1274 13.4738 15.7713 13.3333 15.4 13.3333ZM1.4 2.66667H26.6C26.9713 2.66667 27.3274 2.52619 27.59 2.27614C27.8525 2.02609 28 1.68696 28 1.33333C28 0.979711 27.8525 0.640573 27.59 0.390525C27.3274 0.140476 26.9713 0 26.6 0H1.4C1.0287 0 0.672601 0.140476 0.41005 0.390525C0.1475 0.640573 0 0.979711 0 1.33333C0 1.68696 0.1475 2.02609 0.41005 2.27614C0.672601 2.52619 1.0287 2.66667 1.4 2.66667ZM26.6 6.66667H1.4C1.0287 6.66667 0.672601 6.80714 0.41005 7.05719C0.1475 7.30724 0 7.64638 0 8C0 8.35362 0.1475 8.69276 0.41005 8.94281C0.672601 9.19286 1.0287 9.33333 1.4 9.33333H26.6C26.9713 9.33333 27.3274 9.19286 27.59 8.94281C27.8525 8.69276 28 8.35362 28 8C28 7.64638 27.8525 7.30724 27.59 7.05719C27.3274 6.80714 26.9713 6.66667 26.6 6.66667Z" fill="#EFEFEF"/>
-            </svg>
-          </div>
+      </div>
+      <div class="nav__right">
+        <select>
+          <option value=""><a href="#">AZ </a></option>
+          <option value=""><a href="#">RUS</a></option>
+          <option value=""><a href="#">ENG</a></option>
+        </select>
+        <div class="nav__menu">
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="16" viewBox="0 0 28 16" fill="none">
+            <path
+              d="M15.4 13.3333H1.4C1.0287 13.3333 0.672601 13.4738 0.41005 13.7239C0.1475 13.9739 0 14.313 0 14.6667C0 15.0203 0.1475 15.3594 0.41005 15.6095C0.672601 15.8595 1.0287 16 1.4 16H15.4C15.7713 16 16.1274 15.8595 16.3899 15.6095C16.6525 15.3594 16.8 15.0203 16.8 14.6667C16.8 14.313 16.6525 13.9739 16.3899 13.7239C16.1274 13.4738 15.7713 13.3333 15.4 13.3333ZM1.4 2.66667H26.6C26.9713 2.66667 27.3274 2.52619 27.59 2.27614C27.8525 2.02609 28 1.68696 28 1.33333C28 0.979711 27.8525 0.640573 27.59 0.390525C27.3274 0.140476 26.9713 0 26.6 0H1.4C1.0287 0 0.672601 0.140476 0.41005 0.390525C0.1475 0.640573 0 0.979711 0 1.33333C0 1.68696 0.1475 2.02609 0.41005 2.27614C0.672601 2.52619 1.0287 2.66667 1.4 2.66667ZM26.6 6.66667H1.4C1.0287 6.66667 0.672601 6.80714 0.41005 7.05719C0.1475 7.30724 0 7.64638 0 8C0 8.35362 0.1475 8.69276 0.41005 8.94281C0.672601 9.19286 1.0287 9.33333 1.4 9.33333H26.6C26.9713 9.33333 27.3274 9.19286 27.59 8.94281C27.8525 8.69276 28 8.35362 28 8C28 7.64638 27.8525 7.30724 27.59 7.05719C27.3274 6.80714 26.9713 6.66667 26.6 6.66667Z"
+              fill="#EFEFEF" />
+          </svg>
         </div>
-      </nav>
-    
-    
       </div>
-
-      <div class="page__link">
-        <span><a href="../../index.html">Ana səhifə</a></span> <span>></span> <span><a href="../html/blog.html">Bloq</a></span><span>></span> <span>2023 Lexus RX First Drive Review: Bold Colors</span> 
-  </div>
-
-  
-    </header>
-    <div class="page__heder__image">
-      
-        <div class="page__header">
-              <div class="container">
-                    <h1 class="page__header__tittle">2023 Lexus RX FIrst DrIve RevIew: Bold colors</h1>
-              </div>
-            </div>
-  
-      </div>
-
-<div class="blog__detail container">
-  <div class="blog__detail__left">
-
-      <div class="blog__detail__left__img">
-        <img src="../img/blogDetail/img1.png" alt="">
-      </div>
-      <p>
-        Aliquip ex ea commodo consequat. 
-        Duis aute irure dolor in reprehenderit in voluptate velit 
-        esse cillum dolore eu fugiat nulla pariatur. Excepteur sint...Sed 
-        ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. 
-Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur
-
-      </p>
-      <div class="blog__detail__left__img">
-        <img src="../img/blogDetail/img2.png" alt="">
-      </div>
-      <p>
-        Aliquip ex ea commodo consequat. 
-        Duis aute irure dolor in reprehenderit in voluptate velit 
-        esse cillum dolore eu fugiat nulla pariatur. Excepteur sint...Sed 
-        ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. 
-Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur
-
-      </p>
-
-  
-
-  </div>
-
-  <div class="blog__detail__right">
-    <div class="blog__detail__right__header">
-      <h3>Digər məqalələr</h3>
-    </div>
-    
-
-    <div class="blog__detail__right__cards">
-      <a href="#">
-        <div class="blog__detail__right__cards__card">
-       
-            <div class="blog__detail__right__cards__card__image">
-             <img src="../img/servicePageCardImage.png" alt="">
-            </div>
-          
-           <div class="blog__card__right">
-             <h3>2023 Lexus RX FIrst DrIve RevIew: Bold colors</h3>
-             <p>Aliquip ex ea commodo consequat. Duis aute irure dolor 
-              in reprehenderit in voluptate velit esse cillum dolore eu 
-              fugiat nulla pariatur. Excepteur sint...
-             </p>
-             <div class="apply__button">
-               <span>Ətraflı</span> <span>
-                 <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
-                   <path d="M9.16174 12.1082L20.3475 23.2939L10.6415 23.2732C10.0868 23.2729 9.55498 23.4929 9.16301 23.8848C8.77103 24.2768 8.55101 24.8086 8.55136 25.3633C8.5517 25.918 8.77238 26.4501 9.16484 26.8426C9.5573 27.235 10.0894 27.4557 10.6441 27.4561L25.3725 27.4652C25.6466 27.4594 25.9169 27.3995 26.1677 27.2889C26.6735 27.078 27.0754 26.676 27.2864 26.1703C27.3969 25.9194 27.4568 25.6492 27.4626 25.375L27.4535 10.6467C27.4544 10.3717 27.4009 10.0992 27.2961 9.84488C27.1912 9.59056 27.0371 9.35946 26.8425 9.1649C26.648 8.97035 26.4169 8.8162 26.1625 8.71133C25.9082 8.60647 25.6357 8.55298 25.3608 8.55393C25.0858 8.55264 24.8134 8.60579 24.5592 8.71034C24.305 8.81489 24.0741 8.96876 23.8798 9.16307C23.6854 9.35738 23.5316 9.58829 23.427 9.84248C23.3225 10.0967 23.2693 10.3691 23.2706 10.6441L23.2914 20.3501L12.1056 9.16431C11.7147 8.77345 11.1848 8.55367 10.6324 8.55333C10.0799 8.55299 9.55029 8.77211 9.15991 9.16249C8.76953 9.55287 8.55041 10.0825 8.55075 10.6349C8.55109 11.1874 8.77087 11.7173 9.16174 12.1082Z" fill="#EFEFEF"/>
-                 </svg>
-               </span>
-             </div>
-   
-           </div>
-        
-
-      </a>
-    </div>
-
-  </div>
-</div>
-    
-
-   
-    <div class="menu ">
-      <div class="menu__exit">
-        <i class="fa-solid fa-chevron-left"></i>
-
-      </div>
-      <ul class="container">
-        <li><a href="/index.html">ANA SƏHİFƏ</a></li>
-        <li><a href="/assets/html/aboutUs.html">HAQQIMIZDA</a></li>
-        <li><a href="/assets/html/services.html">XİDMƏTLƏR</a></li>
-        <li><a href="/assets/html/products.html">MƏHSULLAR</a></li>
-        <li><a href="/assets/html/cars.html">AVTOMOBİLLƏR</a></li>
-        <li><a href="/assets/html/blog.html">BLOQ</a></li>
-        <li><a href="/assets/html/connection.html">ƏLAQƏ</a></li>
-      </ul>
-      <div class="menu__language">
-        <a href="#">Az</a>
-        <a href="#">Ru</a>
-        <a href="#">En</a>
-      </div>
-    </div>
+    </nav>
 
 
     </div>
 
-    <footer>
+    <div class="page__link">
+      <span><a href="../../index.html">Ana səhifə</a></span> <span>></span> <span><a
+          href="../html/blog.html">Bloq</a></span><span>></span> <span class="page__header__tittle"></span>
+    </div>
+
+
+  </header>
+  <div class="page__heder__image">
+
+    <div class="page__header">
       <div class="container">
-        <div class="footer__logo">
-          <a href="/index.html"><img src="/assets/img/footerLogo.png" alt=""></a>
-        </div>
-        <ul>
-          <li><a href="/assets/html/aboutUs.html">Haqqımızda</a></li>
-          <li><a href="/assets/html/services.html">Xidmətlər</a></li>
-          <li><a href="/assets/html/products.html">Məhsullar</a></li>
-        </ul>
-        <ul>
-          <li><a href="/assets/html/cars.html">Avtomobillər</a></li>
-          <li><a href="/assets/html/blog.html">Bloq</a></li>
-          <li><a href="/assets/html/connection.html">Əlaqə</a></li>
-        </ul>
-        <ul class="footer__social">
-          <li>Bizi izlə</li>
-          <li><a href="#"><i class="fa-brands fa-instagram"></i></a><a href="#"><i class="fa-brands fa-square-facebook"></i></a></li>
-          
-        </ul>
+        <h1 class="page__header__tittle">2023 Lexus RX FIrst DrIve RevIew: Bold colors</h1>
       </div>
-      <div class="footer__copyright">
-        <p>©2022 All Right Reserved. Developed by Webcoder</p>
-      </div>
-    </footer>
+    </div>
 
-  
-   
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script src="./assets/js/slickSlider.js"></script>
-    <script src="../js/main.js"></script>
-    <script src="/assets/js/blog.js"></script>
-    <script src="/assets/js/blogDetail.js"></script>
-  </body>
+  </div>
+
+  <div class="blog__detail container">
+    <div class="blog__detail__left"></div>
+
+    <div class="blog__detail__right">
+      <div class="blog__detail__right__header">
+        <h3>Digər məqalələr</h3>
+      </div>
+
+
+      <div class="blog__detail__right__cards">
+        <a href="#">
+          <div class="blog__detail__right__cards__card">
+
+            <div class="blog__detail__right__cards__card__image">
+              <img src="../img/servicePageCardImage.png" alt="">
+            </div>
+
+            <div class="blog__card__right">
+              <h3>2023 Lexus RX FIrst DrIve RevIew: Bold colors</h3>
+              <p>Aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Excepteur sint...
+              </p>
+              <div class="apply__button">
+                <span>Ətraflı</span> <span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+                    <path
+                      d="M9.16174 12.1082L20.3475 23.2939L10.6415 23.2732C10.0868 23.2729 9.55498 23.4929 9.16301 23.8848C8.77103 24.2768 8.55101 24.8086 8.55136 25.3633C8.5517 25.918 8.77238 26.4501 9.16484 26.8426C9.5573 27.235 10.0894 27.4557 10.6441 27.4561L25.3725 27.4652C25.6466 27.4594 25.9169 27.3995 26.1677 27.2889C26.6735 27.078 27.0754 26.676 27.2864 26.1703C27.3969 25.9194 27.4568 25.6492 27.4626 25.375L27.4535 10.6467C27.4544 10.3717 27.4009 10.0992 27.2961 9.84488C27.1912 9.59056 27.0371 9.35946 26.8425 9.1649C26.648 8.97035 26.4169 8.8162 26.1625 8.71133C25.9082 8.60647 25.6357 8.55298 25.3608 8.55393C25.0858 8.55264 24.8134 8.60579 24.5592 8.71034C24.305 8.81489 24.0741 8.96876 23.8798 9.16307C23.6854 9.35738 23.5316 9.58829 23.427 9.84248C23.3225 10.0967 23.2693 10.3691 23.2706 10.6441L23.2914 20.3501L12.1056 9.16431C11.7147 8.77345 11.1848 8.55367 10.6324 8.55333C10.0799 8.55299 9.55029 8.77211 9.15991 9.16249C8.76953 9.55287 8.55041 10.0825 8.55075 10.6349C8.55109 11.1874 8.77087 11.7173 9.16174 12.1082Z"
+                      fill="#EFEFEF" />
+                  </svg>
+                </span>
+              </div>
+
+            </div>
+
+
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+
+
+  <div class="menu ">
+    <div class="menu__exit">
+      <i class="fa-solid fa-chevron-left"></i>
+
+    </div>
+    <ul class="container">
+      <li><a href="/index.html">ANA SƏHİFƏ</a></li>
+      <li><a href="/assets/html/aboutUs.html">HAQQIMIZDA</a></li>
+      <li><a href="/assets/html/services.html">XİDMƏTLƏR</a></li>
+      <li><a href="/assets/html/products.html">MƏHSULLAR</a></li>
+      <li><a href="/assets/html/cars.html">AVTOMOBİLLƏR</a></li>
+      <li><a href="/assets/html/blog.html">BLOQ</a></li>
+      <li><a href="/assets/html/connection.html">ƏLAQƏ</a></li>
+    </ul>
+    <div class="menu__language">
+      <a href="#">Az</a>
+      <a href="#">Ru</a>
+      <a href="#">En</a>
+    </div>
+  </div>
+
+
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="footer__logo">
+        <a href="/index.html"><img src="/assets/img/footerLogo.png" alt=""></a>
+      </div>
+      <ul>
+        <li><a href="/assets/html/aboutUs.html">Haqqımızda</a></li>
+        <li><a href="/assets/html/services.html">Xidmətlər</a></li>
+        <li><a href="/assets/html/products.html">Məhsullar</a></li>
+      </ul>
+      <ul>
+        <li><a href="/assets/html/cars.html">Avtomobillər</a></li>
+        <li><a href="/assets/html/blog.html">Bloq</a></li>
+        <li><a href="/assets/html/connection.html">Əlaqə</a></li>
+      </ul>
+      <ul class="footer__social">
+        <li>Bizi izlə</li>
+        <li><a href="#"><i class="fa-brands fa-instagram"></i></a><a href="#"><i
+              class="fa-brands fa-square-facebook"></i></a></li>
+
+      </ul>
+    </div>
+    <div class="footer__copyright">
+      <p>©2022 All Right Reserved. Developed by Webcoder</p>
+    </div>
+  </footer>
+
+
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="./assets/js/slickSlider.js"></script>
+  <script src="../js/main.js"></script>
+  <script src="/assets/js/blog.js"></script>
+  <script src="/assets/js/blogDetail.js"></script>
+</body>
+
 </html>
