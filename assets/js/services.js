@@ -2,14 +2,14 @@ let result = document.querySelector('.result')
 let services = document.querySelector('.services')
 
 
- fetch("../json/services.json").then(function(response){
- 
-     return response.json()
-     
-}).then(function(servicesData){
-  servicesData?.map(item=>{
-      let servicesCard = document.createElement('a')
-      servicesCard.innerHTML = `
+fetch("../json/services.json").then(function (response) {
+
+  return response.json()
+
+}).then(function (servicesData) {
+  servicesData?.map(item => {
+    let servicesCard = document.createElement('a')
+    servicesCard.innerHTML = `
       <div class="services__card">
           <div class="services__card__left">
            <div class="services__card__left__image">
@@ -33,38 +33,38 @@ let services = document.querySelector('.services')
         </div>
       
       `
-      
-
-      servicesCard.href="../html/servicesDetail.html"
-      services?.appendChild(servicesCard);
-      servicesCard.addEventListener('click',()=>{
-        localStorage.setItem("servicesDetail__data__link", JSON.stringify(item))
-    
-       })
-     
-
-  
 
 
-  
+    servicesCard.href = "../html/servicesDetail.html"
+    services?.appendChild(servicesCard);
+    servicesCard.addEventListener('click', () => {
+      localStorage.setItem("servicesDetail__data__link", JSON.stringify(item))
+
+    })
 
 
-     })
+
+
+
+
+
+
+  })
 })
 
 let servicesSlider = document.querySelector('.services__slider')
 
 
-fetch("/assets/json/services.json").then(function(response){
+fetch("/assets/json/services.json").then(function (response) {
 
-return response.json()
-}).then(function(servicesSliderData){
+  return response.json()
+}).then(function (servicesSliderData) {
 
-  servicesSliderData?.map(item=>{
-   
+  servicesSliderData?.map(item => {
 
-   let servicesSliderCard = document.createElement('a')
-   servicesSliderCard.innerHTML=`
+
+    let servicesSliderCard = document.createElement('a')
+    servicesSliderCard.innerHTML = `
    <div class="services__slider__card ">
        
            <div class="services__slider__card__img">
@@ -73,7 +73,7 @@ return response.json()
            <div class="services__slider__content">
              <h2>${item.header}</h2>
              <p>
-             ${item.tittle.slice(0,100)}
+             ${item.tittle.slice(0, 100)}
                </p>
                <a href="/assets/html/apply.html">
              <div class="apply__button">
@@ -90,59 +90,60 @@ return response.json()
        
        </div>
    `
-   servicesSliderCard.href='/assets/html/servicesDetail.html'
-   
-   servicesSlider?.appendChild(servicesSliderCard);
-   servicesSliderCard.addEventListener('click',()=>{
-    localStorage.setItem("servicesDetail__data__link", JSON.stringify(item))
+    servicesSliderCard.href = '/assets/html/servicesDetail.html'
 
-   })
+    servicesSlider?.appendChild(servicesSliderCard);
+    servicesSliderCard.addEventListener('click', () => {
+      localStorage.setItem("servicesDetail__data__link", JSON.stringify(item))
+
+    })
 
 
 
   })
   $('.services__slider').slick({
+
     prevArrow: '',
     nextArrow: '',
     dots: true,
     infinite: true,
-   
-  
-  
+
+
+
     speed: 300,
     slidesToShow: 3,
     slidesToScroll: 4,
-   
+
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 1100,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 2,
           slidesToScroll: 3,
           infinite: true,
           dots: true
         }
       },
       {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2
-        }
-      },
-      {
-        breakpoint: 480,
+        breakpoint: 700,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1
+          slidesToScroll: 2
         }
       }
-      // You can unslick at a given breakpoint now by adding:
-      // settings: "unslick"
-      // instead of a settings object
+
+
     ]
+
   });
- 
+  $('.custom-prev').click(function () {
+    $('.services__slider').slick('slickPrev');
+  })
+
+  $('.custom-next').click(function () {
+    $('.services__slider').slick('slickNext');
+  })
+
 })
 
 
