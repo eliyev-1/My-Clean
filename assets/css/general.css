@@ -203,3 +203,28 @@ footer ul a,
     font-size: 4.4rem;
   }
 }
+.services__slider__box,.cars__detail__right__slider__box{
+  
+  position: relative;
+
+}
+.services button,.cars__detail__right__slider button{
+  width: 6rem;
+  height: 6rem;
+  border-radius: 100%;
+  background-color: var(--color-yellow);
+  font-size: 2rem;
+  cursor: pointer;
+  position: absolute;
+}
+.custom-prev{
+  top: 50%;
+  left: 0;
+  transform: translate(-70%,-50%);
+}
+.custom-next{
+  top: 50%;
+  right: 0;
+  transform: translate(70%,-50%);
+
+}

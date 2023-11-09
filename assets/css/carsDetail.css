@@ -41,6 +41,15 @@
       flex-direction: column;
       gap: 3rem;
 }
+.cars__detail__right__nav__slider{
+      display: flex;
+      gap: 3rem;
+}
+.cars__detail__right__nav__slider__item{
+      
+      padding:  1rem;
+     
+}
 
 @media(max-width:1100px){
     
