@@ -4,42 +4,42 @@
 "header":"Rəngsaz",
 "tittle":"Hər bir avtomobil sahibi avtotexniki mərkəzimizdə avtomobillərin rənglənməsi xidmətini sifariş etsə, birinci dərəcəli xidmətə və zəmanətli yüksək iş nəticəsinə arxalana bilər. Boya və lak örtüyünün...",
 "img":"../img/services/img1.webp",
-"imgIndex":"../assets/img/services/img1.webp"
+"imgIndex":"./assets/img/services/img1.webp"
 },
 {
 "id":2,     
 "header":"Keramika",
 "tittle":"Bizim peşəkar komandamıza müraciət edərək avtomobilinizi qoruyucu keramika örtüyü ilə avtomobilin səthini ətraf mühitin təsirlərindən, çətin hava şəraitindən və kiçik cızıqlardan qoruya bilərsiniz....",
 "img":"../img/services/img2.webp",
-"imgIndex":"../assets/img/services/img2.webp"
+"imgIndex":"./assets/img/services/img2.webp"
 },
 {
 "id":3,
 "header":"Cilalama",
 "tittle":"Peşəkar avtomobil cilalama xidmətimiz avtomobilinizin boyasına yeni nəfəs vermək və keçmiş rəng dərinliyini geri qaytarmaq və onu parlatmaq üçün nəzərdə tutulub. Avtomobilin cilalanması avtomobilə...",
 "img":"../img/services/img3.jpg",
-"imgIndex":"../assets/img/services/img3.jpg"
+"imgIndex":"./assets/img/services/img3.jpg"
 },
 {
 "id":4,
 "header":"Avtoyuma",
 "tittle":"Avtomobiliniz həyatınızın böyük bir hissəsi,Təmiz saxlamaq isə  çətin hissəsidir. MyClean avtomobilinizə parıltı əlavə etməkdən daha çox şeydir.  Avtomobilinizə tam xidmət göstərən MyClea...",
 "img":"../img/services/img4.webp",
-"imgIndex":"../assets/img/services/img4.webp"
+"imgIndex":"./assets/img/services/img4.webp"
 },
 {
 "id":5,
 "header":"Buxarlı kimyəvi təmizləmə",
 "tittle":"Buxarlı kimyəvi təmizləmə- Komandamızın təklif etdiyi Buxarla təmizləmə xidməti isti, yüksək təzyiqli buxardan istifadə edərək avtomobilin salonunu təmizləməyin müasir üsuludur .Bu...",
 "img":"../img/services/img5.jpg",
-"imgIndex":"../assets/img/services/img5.jpg"
+"imgIndex":"./assets/img/services/img5.jpg"
 },
 {
 "id":6,
 "header":"Dəri bərpası",
 "tittle":"Dəri davamlı material olsa belə, həddindən artıq istifadə aşınma və zədələnmə ilə nəticələnə bilər. Avtomobil oturacaqlarınızın orijinal parıltısını itirməsindən, ləkələnməsindən və ya günəş...",
 "img":"../img/services/img6.jpg",
-"imgIndex":"../assets/img/services/img6.jpg"
+"imgIndex":"./assets/img/services/img6.jpg"
 }
 ,
 {
@@ -47,7 +47,7 @@
 "header":"Mühərrikin yuyulması",
 "tittle":"Mühərrikin yuyulması Bu texnologiya  vasitəsiylə komandamız mühərrik bölməsində yerləşən komponentlərə zərər vermə riski olmadan istənilən çirklənməni aradan qaldırmağa xidmət edirMühərrik yuvasının təmizlənməsi istənilən avtomobil üçün vacib amildir . Avtomobilinizin mühərrikini müntəzəm təmizləməklə, avtomobilinizin performansına təsir edə biləcək problemləri  aradan qaldıra bilərsiniz. ",
 "img":"../img/services/img7.jpg",
-"imgIndex":"../assets/img/services/img7.jpg"
+"imgIndex":"./assets/img/services/img7.jpg"
 }
 
 ]
